@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* navgation */
+
+.nav-container {
+  padding-top: 35px;
+  padding-left: 62px;
+  text-decoration: none;
+}
+
+.nav-button {
+  background-color: #474747;
+  color: #fff;
+  border: none;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  display: none;
+}
+
+.nav-button-icons {
+  width: 45px;
+  height: 45px;
+}
+
+.projects-link {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.projects-link:hover {
+  color: rgb(161, 161, 161);
+  transition: 0.3s;
+}
+
+.contact-button {
+  background-color: #474747;
+  margin-left: 43px;
+  color: #fff;
+  border: none;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-button:hover {
+  color: rgb(161, 161, 161);
+  transition: 0.3s;
+}
+
+/* logo */
+
+.logo-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.logo-img {
+  margin-top: -30px;
+  width: 180px;
+  height: 180px;
+}
+
+/* social */
+
+.social-container {
+  padding-top: 35px;
+  padding-right: 62px;
+  height: 45px;
+}
+
+.social-buttons {
+  margin-left: 53px;
+  background-color: #474747;
+  border: none;
+  color: #fff;
+  width: 45px;
+  height: 45px;
+}
+
+.social-buttons:hover {
+  transition: 0.3s;
+  color: rgb(161, 161, 161);
+}
+
+.social-icons {
+  width: 45px;
+  height: 45px;
+}
+
+/* responsive */
+
+@media (max-width: 980px) {
+  .projects-link {
+    display: none;
+  }
+  .contact-button {
+    display: none;
+  }
+  .nav-button {
+    display: initial;
+  }
+}
+
+@media (max-width: 770px) {
+  .logo-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 63px;
+  }
+
+  .social-container {
+    display: none;
+  }
+}
