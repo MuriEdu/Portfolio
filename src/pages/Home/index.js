@@ -8,7 +8,6 @@ import {
   AiOutlineInstagram,
 } from "react-icons/ai";
 import { TiThMenu } from "react-icons/ti";
-import { HiOutlineDeviceMobile } from "react-icons/hi";
 
 function Home() {
   return (
