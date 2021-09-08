@@ -86,7 +86,9 @@ function Home() {
           </button>
         </div>
       </div>
-      <div className="site-container"></div>
+      <div className="site-container">
+        <div className="product-container"></div>
+      </div>
     </div>
   );
 }

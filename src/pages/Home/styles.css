@@ -197,10 +197,17 @@
   }
 
   .logo-img {
+    margin-top: -17px;
     display: initial;
+    width: 150px;
+    height: 150px;
   }
 
   .nav-container {
     padding-left: 30px;
+  }
+
+  .close-button-menu {
+    margin-left: 80%;
   }
 }
