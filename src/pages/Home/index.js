@@ -32,13 +32,28 @@ function Home() {
           ></img>
         </div>
         <div className="social-container">
-          <button className="social-buttons">
+          <button
+            className="social-buttons"
+            onClick={() => window.location.assign("https://github.com/MuriEdu")}
+          >
             <AiOutlineGithub className="social-icons" />
           </button>
-          <button className="social-buttons">
+          <button
+            className="social-buttons"
+            onClick={() =>
+              window.location.assign("https://linkedin.com/in/MuriEdu")
+            }
+          >
             <AiFillLinkedin className="social-icons" />
           </button>
-          <button className="social-buttons">
+          <button
+            className="social-buttons"
+            onClick={() =>
+              window.location.assign(
+                "https://instagram.com/muri.ramos_?utm_medium=copy_link"
+              )
+            }
+          >
             <AiOutlineInstagram className="social-icons" />
           </button>
         </div>
