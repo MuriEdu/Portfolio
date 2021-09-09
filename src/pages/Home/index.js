@@ -16,7 +16,6 @@ import {
   AiFillHtml5,
 } from "react-icons/ai";
 import { TiThMenu } from "react-icons/ti";
-import { IoLogoCss3 } from "react-icons/io";
 import { GrReactjs } from "react-icons/gr";
 import { SiJavascript } from "react-icons/si";
 
