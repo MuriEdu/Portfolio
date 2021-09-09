@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap");
+
 .content {
   display: flex;
   flex-direction: row;
@@ -97,4 +98,60 @@
   font-size: 30px;
   font-style: italic;
   font-weight: 500;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 980px) {
+  .content {
+    flex-direction: column;
+  }
+  .perfil-container {
+    margin-top: 15px;
+  }
+  .product-container {
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 980px) {
+  .perfil-container {
+    margin-top: 50px;
+  }
+  .product-container {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .img-frame {
+    width: 305px;
+    height: 291px;
+  }
+
+  .perfil-img {
+    width: 280px;
+    height: 271px;
+  }
+
+  .perfil-description {
+    font-size: 25px;
+  }
+
+  .product-box {
+    width: 410px;
+    height: 400px;
+  }
+
+  .skills-list {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 450px) {
+  .product-box {
+    border-radius: 0px;
+    width: 100%;
+  }
 }
