@@ -1,15 +1,25 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import "./styles.css";
+
+import "./styles/styles.css";
+import "./styles/contentsStyle.css";
+
 import Logo from "../../assets/Logowht.png";
 import LogoReduced from "../../assets/LogoReducedwht.png";
+import Perfil from "../../assets/perfil.jpg";
+
 import {
   AiOutlineGithub,
   AiFillLinkedin,
   AiOutlineInstagram,
   AiOutlineClose,
+  AiFillHtml5,
 } from "react-icons/ai";
 import { TiThMenu } from "react-icons/ti";
+import { IoLogoCss3 } from "react-icons/io";
+import { GrReactjs } from "react-icons/gr";
+import { SiJavascript } from "react-icons/si";
+
 import { motion } from "framer-motion";
 
 function Home() {
@@ -86,8 +96,32 @@ function Home() {
           </button>
         </div>
       </div>
-      <div className="site-container">
-        <div className="product-container"></div>
+      <div className="content">
+        <div className="perfil-container">
+          <div className="img-frame">
+            <img className="perfil-img" src={Perfil} alt={"perfil-img..."} />
+          </div>
+          <h3 className="perfil-name">Murilo Ramos</h3>
+          <p className="perfil-description">
+            Web & Mobile Developer <br /> Based in São Carlos
+          </p>
+        </div>
+        <div className="product-container">
+          <div className="product-box">
+            <h3 className="tech-products">Main Technologies</h3>
+            <div className="tech-box">
+              <SiJavascript className="tech-icons" id="JS" />
+              <GrReactjs className="tech-icons" id="React" />
+              <AiFillHtml5 className="tech-icons" id="HTML" />
+            </div>
+            <h3 className="tech-products">Skills</h3>
+            <ul className="skills-list">
+              <li>Learn new technologies easily</li>
+              <li>Proactivity and creativity</li>
+              <li>Ready to face new challenges.</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   );

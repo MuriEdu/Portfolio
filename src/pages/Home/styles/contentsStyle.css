@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;700&display=swap");
+.content {
+  display: flex;
+  flex-direction: row;
+}
+
+/* PERFIL */
+
+.perfil-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.img-frame {
+  background-color: #3f3d3d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  width: 325px;
+  height: 311px;
+}
+
+.perfil-img {
+  border-radius: 50px;
+  width: 300px;
+  height: 291px;
+}
+
+.perfil-name {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: 45px;
+  font-weight: 700;
+}
+
+.perfil-description {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 35px;
+  text-align: center;
+}
+
+/* PRODUCT */
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.product-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #3f3d3d;
+  border-radius: 25px;
+  width: 480px;
+  height: 470px;
+}
+
+.tech-products {
+  color: #fff;
+  margin-top: 42px;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: 45px;
+  font-weight: 700;
+}
+
+.tech-icons {
+  width: 65px;
+  height: 65px;
+  padding: 20px;
+}
+
+#JS {
+  color: #f7df1e;
+}
+
+#React {
+  color: #00d8ff;
+}
+
+#HTML {
+  color: #e34c26;
+}
+
+.skills-list {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: 500;
+}
