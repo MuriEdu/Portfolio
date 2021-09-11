@@ -48,7 +48,9 @@ function Home() {
             <Link className="side-menu-link" to="/projects">
               Projects
             </Link>
-            <button className="side-menu-button">Contact</button>
+            <Link className="side-menu-button" to="/contact">
+              Contact
+            </Link>
           </motion.div>
         ) : null}
         <div className="nav-container">
@@ -58,7 +60,9 @@ function Home() {
           <Link className="projects-link" to="/projects">
             Project
           </Link>
-          <button className="contact-button">Contact</button>
+          <Link className="contact-link" to="/contact">
+            Contact
+          </Link>
         </div>
         <div className="logo-container">
           <img className="logo-img" src={Logo} alt={"logo-img..."}></img>

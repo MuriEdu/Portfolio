@@ -40,16 +40,17 @@
   transition: 0.3s;
 }
 
-.contact-button {
+.contact-link {
   background-color: #474747;
   margin-left: 43px;
   color: #fff;
   border: none;
+  text-decoration: none;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
 }
 
-.contact-button:hover {
+.contact-link:hover {
   color: rgb(161, 161, 161);
   transition: 0.3s;
 }
