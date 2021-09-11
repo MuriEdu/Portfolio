@@ -1,0 +1,67 @@
+.container-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu_ {
+  margin-right: 95%;
+}
+
+.img_ {
+  width: 200px;
+  height: 200px;
+}
+
+.product {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+
+._content {
+  padding: 10px;
+  margin-left: 50px;
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  width: 650px;
+}
+
+._content:hover {
+  transition: 0.3s;
+  background-color: rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+
+.pTitle {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 25px;
+  font-weight: 700;
+  margin-top: -30px;
+}
+
+.link-txt {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 50px;
+}
+
+.link-txt:hover {
+  transition: 0.3s;
+  color: rgb(163, 163, 163);
+}
+
+.link-together {
+  text-decoration: none;
+}
+
+.link-div {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
