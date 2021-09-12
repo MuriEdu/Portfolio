@@ -20,9 +20,12 @@
 }
 
 ._content {
+  cursor: pointer;
   padding: 10px;
   margin-left: 50px;
   color: #fff;
+  background-color: #474747;
+  border: none;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   width: 650px;

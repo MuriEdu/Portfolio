@@ -95,3 +95,39 @@
   background-color: #3b04b3;
   height: 45px;
 }
+
+/* RESPONSIVE */
+
+@media (max-width: 825px) {
+  .img-container {
+    display: none;
+  }
+
+  .form-container {
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .form-container {
+    width: 300px;
+    height: 350px;
+  }
+
+  .inp {
+    width: 200px;
+    height: 100px;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form-container {
+    background-color: #474747;
+  }
+
+  .inp {
+    margin: 7px;
+    border-color: #000;
+  }
+}
