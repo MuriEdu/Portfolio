@@ -125,21 +125,7 @@
   font-size: 25px;
 }
 
-.side-menu-button {
-  background-color: #240b53;
-  border: none;
-  color: #fff;
-  font-size: 25px;
-  font-family: "Roboto", sans-serif;
-  cursor: pointer;
-}
-
 .side-menu-link:hover {
-  color: rgb(126, 126, 126);
-  transition: 0.3s;
-}
-
-.side-menu-button:hover {
   color: rgb(126, 126, 126);
   transition: 0.3s;
 }

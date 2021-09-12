@@ -48,7 +48,7 @@ function Home() {
             <Link className="side-menu-link" to="/projects">
               Projects
             </Link>
-            <Link className="side-menu-button" to="/contact">
+            <Link className="side-menu-link" to="/contact">
               Contact
             </Link>
           </motion.div>
