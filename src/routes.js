@@ -7,7 +7,7 @@ import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 function Routes() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
       <Switch>
         <Route path="/" exact>
           <Home />
@@ -19,7 +19,7 @@ function Routes() {
           <Projects />
         </Route>
       </Switch>
-    </BrowserRouter>
+    </Router>
   );
 }
 
