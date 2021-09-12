@@ -8,13 +8,13 @@ function Routes() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/" exact>
+        <Route path="https://muriedu.github.io/Portfolio/" exact>
           <Home />
         </Route>
-        <Route path="/contact">
+        <Route path="https://muriedu.github.io/Portfolio/contact">
           <Contact />
         </Route>
-        <Route path="/projects">
+        <Route path="https://muriedu.github.io/Portfolio/projects">
           <Projects />
         </Route>
       </Switch>

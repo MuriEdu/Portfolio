@@ -16,7 +16,7 @@ function Contact() {
   return (
     <div className="container">
       <div className="menu">
-        <Link to="/">
+        <Link to="https://muriedu.github.io/Portfolio/">
           <BiHomeAlt className="home-icon" />
         </Link>
       </div>

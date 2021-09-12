@@ -45,10 +45,16 @@ function Home() {
                 onClick={() => setIsMenuVisible(false)}
               />
             </button>
-            <Link className="side-menu-link" to="/projects">
+            <Link
+              className="side-menu-link"
+              to="https://muriedu.github.io/Portfolio/projects"
+            >
               Projects
             </Link>
-            <Link className="side-menu-link" to="/contact">
+            <Link
+              className="side-menu-link"
+              to="https://muriedu.github.io/Portfolio/contact"
+            >
               Contact
             </Link>
           </motion.div>
@@ -57,10 +63,16 @@ function Home() {
           <button className="nav-button" onClick={() => setIsMenuVisible(true)}>
             <TiThMenu className="nav-button-icons" />
           </button>
-          <Link className="projects-link" to="/projects">
+          <Link
+            className="projects-link"
+            to="https://muriedu.github.io/Portfolio/projects"
+          >
             Project
           </Link>
-          <Link className="contact-link" to="/contact">
+          <Link
+            className="contact-link"
+            to="https://muriedu.github.io/Portfolio/contact"
+          >
             Contact
           </Link>
         </div>

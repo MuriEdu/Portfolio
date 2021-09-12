@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div className="container-projects">
       <div className="menu" id="menu_">
-        <Link to="/">
+        <Link to="https://muriedu.github.io/Portfolio/">
           <BiHomeAlt className="home-icon" />
         </Link>
       </div>
@@ -38,7 +38,10 @@ function Projects() {
         </button>
       </div>
       <div className="link-div">
-        <Link to="/contact" className="link-together">
+        <Link
+          to="https://muriedu.github.io/Portfolio/contact"
+          className="link-together"
+        >
           <p className="link-txt">
             You need a web or mobile developer? <br /> Lets’s go work together
           </p>
