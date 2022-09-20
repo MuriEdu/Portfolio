@@ -2,7 +2,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=react"/>
-  <img src="https://img.shields.io/static/v1?label=JavaScript&message=Main Technologie&color=blue&style=for-the-badge&logo=javascript"/>
+  <img src="https://img.shields.io/static/v1?label=JavaScript&message=Main Technology&color=blue&style=for-the-badge&logo=javascript"/>
   <img src="https://img.shields.io/static/v1?label=Github&message=Deploy&color=blue&style=for-the-badge&logo=github"/>
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green&style=for-the-badge"/>
   <img src="https://img.shields.io/static/v1?label=status&message=done&color=brightgreen&style=for-the-badge"/>
@@ -27,3 +27,4 @@
 ## Requirements and Libraries
 - [Node](https://nodejs.org/en/)
 - [EmailJS](https://www.emailjs.com/)
+- [Firebase](https://firebase.google.com/)
