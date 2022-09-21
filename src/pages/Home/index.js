@@ -45,9 +45,9 @@ function Home() {
                 onClick={() => setIsMenuVisible(false)}
               />
             </button>
-            <Link className="side-menu-link" to="/projects">
-              Projects
-            </Link>
+            //<Link className="side-menu-link" to="/projects">
+            //  Projects
+           // </Link>
             <Link className="side-menu-link" to="/contact">
               Contact
             </Link>
