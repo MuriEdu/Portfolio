@@ -58,7 +58,7 @@ function Home() {
             <TiThMenu className="nav-button-icons" />
           </button>
           <Link className="projects-link" to="/projects">
-            Project
+            Projects
           </Link>
           <Link className="contact-link" to="/contact">
             Contact
