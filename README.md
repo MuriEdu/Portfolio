@@ -26,5 +26,7 @@
   
 ## Requirements and Libraries
 - [Node](https://nodejs.org/en/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Framer Motion](https://www.framer.com/motion/)
 - [EmailJS](https://www.emailjs.com/)
 - [Firebase](https://firebase.google.com/)
