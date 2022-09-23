@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/static/v1?label=react&message=framework&color=blue&style=for-the-badge&logo=react"/>
   <img src="https://img.shields.io/static/v1?label=JavaScript&message=Main Technology&color=blue&style=for-the-badge&logo=javascript"/>
   <img src="https://img.shields.io/static/v1?label=Github&message=Deploy&color=blue&style=for-the-badge&logo=github"/>
-  <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=green&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=license&message=BSD&color=green&style=for-the-badge"/>
   <img src="https://img.shields.io/static/v1?label=status&message=done&color=brightgreen&style=for-the-badge"/>
 <p>
 
@@ -26,5 +26,7 @@
   
 ## Requirements and Libraries
 - [Node](https://nodejs.org/en/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+- [Framer Motion](https://www.framer.com/motion/)
 - [EmailJS](https://www.emailjs.com/)
 - [Firebase](https://firebase.google.com/)
