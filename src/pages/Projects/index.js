@@ -3,11 +3,7 @@ import { Link } from "react-router-dom";
 
 import "./styles.css";
 
-import { getData } from "../../services/firebase";
-
 function Projects() {
-  getData();
-
   const data = JSON.parse(window.sessionStorage.getItem("@PRODUCTS"));
 
   const products = data.reverse().map((item) => {

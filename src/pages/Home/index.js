@@ -21,7 +21,10 @@ import { SiJavascript } from "react-icons/si";
 
 import { motion } from "framer-motion";
 
+import { getData } from "../../services/firebase";
+
 function Home() {
+  getData();
   const [isMenuVisible, setIsMenuVisible] = useState(false);
 
   const variants = {
@@ -45,9 +48,9 @@ function Home() {
                 onClick={() => setIsMenuVisible(false)}
               />
             </button>
-            //<Link className="side-menu-link" to="/projects">
-            //  Projects
-           // </Link>
+            <Link className="side-menu-link" to="/projects">
+              Projects{" "}
+            </Link>
             <Link className="side-menu-link" to="/contact">
               Contact
             </Link>
@@ -119,9 +122,36 @@ function Home() {
             </div>
             <h3 className="tech-products">Skills</h3>
             <ul className="skills-list">
-              <li>Learn new technologies easily</li>
-              <li>Proactivity and creativity</li>
-              <li>Ready to face new challenges.</li>
+              <li className="skills-items">
+                Knowledge about JavaScript and Python
+              </li>
+              <li className="skills-items">
+                Experience in front-end development with React and React Native
+              </li>
+              <li className="skills-items">
+                Experience with MongoDB and Firebase
+              </li>
+              <li className="skills-items">Experience in API integration</li>
+              <li className="skills-items">
+                Extension project in robotics by{" "}
+                <a
+                  className="skills-links"
+                  href="https://www.ifsp.edu.br/"
+                  target={"_blank"}
+                >
+                  IFSP
+                </a>
+              </li>
+              <li className="skills-items">
+                Extension project in entrepreneurship by{" "}
+                <a
+                  className="skills-links"
+                  href="https://www.unilasalle.edu.br/introducao"
+                  target={"_blank"}
+                >
+                  Unilasalle
+                </a>{" "}
+              </li>
             </ul>
           </div>
         </div>

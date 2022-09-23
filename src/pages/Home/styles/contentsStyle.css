@@ -63,7 +63,8 @@
   background-color: #3f3d3d;
   border-radius: 25px;
   width: 480px;
-  height: 470px;
+  height: fit-content;
+  padding: 20px;
 }
 
 .tech-products {
@@ -95,9 +96,23 @@
 .skills-list {
   color: #fff;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   font-style: italic;
   font-weight: 500;
+}
+
+.skills-items {
+  margin: 2px;
+}
+
+.skills-links {
+  color: #00d8ff;
+  text-decoration: none;
+}
+
+.skills-links:hover {
+  transition: 0.2s;
+  color: #016b7e;
 }
 
 /* RESPONSIVE */
