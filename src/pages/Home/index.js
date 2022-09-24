@@ -146,7 +146,7 @@ function Home() {
                 Extension project in entrepreneurship by{" "}
                 <a
                   className="skills-links"
-                  href="https://www.unilasalle.edu.br/introducao"
+                  href="https://www.unilasalle.edu.br/canoas"
                   target={"_blank"}
                 >
                   Unilasalle
