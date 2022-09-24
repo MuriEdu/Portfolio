@@ -156,11 +156,6 @@
 
   .product-box {
     width: 410px;
-    height: 400px;
-  }
-
-  .skills-list {
-    font-size: 22px;
   }
 }
 
@@ -168,5 +163,8 @@
   .product-box {
     border-radius: 0px;
     width: 100%;
+  }
+  .skills-list {
+    font-size: 18px;
   }
 }
