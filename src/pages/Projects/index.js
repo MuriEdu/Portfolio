@@ -6,7 +6,7 @@ import "./styles.css";
 function Projects() {
   const data = JSON.parse(window.sessionStorage.getItem("@PRODUCTS"));
 
-  const products = data.reverse().map((item) => {
+  const products = data.map((item) => {
     return (
       <div
         className="products"
